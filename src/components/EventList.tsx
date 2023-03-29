@@ -9,11 +9,13 @@ interface EventProps {
 
 const EventList: React.FC<EventProps> = ({ events, onDelete }) => {
   return (
-    // <div className={styles.list}>
-    //   {events.map((event) => (
-    //     <Event key={event.id} title={event.title} date={event.date} onDelete={() => onDelete(event.id)} />
-    //   ))}
-    // </div>
+    <div className={styles.list}>
+      {
+        // events.map((event) => (
+        //   <Event key={event.id} title={event.title} date={event.date} onDelete={() => onDelete(event.id)} />
+        // ))
+      }
+    </div>
   );
 };
 
